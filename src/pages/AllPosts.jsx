@@ -13,7 +13,7 @@ function AllPosts() {
   return (
     <div className='w-full py-8'>
         <Container>
-            <div className='flex flex-wrap md:flex-col'>
+            <div className='flex flex-wrap justify-center'>
                 {posts.map((post) => (
                     <div key={post.$id} className='p-2 w-60'>
                         <PostCard {...post} />
